@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../Images/cartoon-cute-doodles-kids-toys-2456877.jpg);
+    height: 250px;
+}
+
+
+main h1{
+    color:cadetblue;
+    padding: 1rem 0 0 3%;
+}
+
+main h2 {
+    color:darkred;
+    padding: 1rem 0 0 3%;
+}
+
+main p {
+    padding: .2rem 0 0 2%;
+    line-height: 150%;
+}
+main p b { 
+    color:gray;
+}
+
+main ul {
+    margin: 0;
+}
+
+main ul.objectives {
+    margin-left: 4%;
+}
+
+main p#attempts {
+    margin: 0;
+    color:indigo;
+}
+
+main p#feedback {
+    margin: 0;
+    color:lightsteelblue;
+}
+
+main article div {
+    height: 400px;
+    background-color:linen;
+    padding-top: 15px;
+
+}
+
+.article-container {
+    display: flex;
+}
+
+article {
+    width: 25%;
+}
+
+img {
+    width: 100%;
+}
+
+main article.a2 div{
+text-align: center;
+}
+
+main article.a1 input{
+    border: .75px solid black;
+    text-align: center;
+    width: 75%;
+}
+
+main article.a1 button{
+    border: .75px solid black;
+    
+}
+
+footer{
+    background-color:lightblue;
+    color:black;
+    padding: 1rem 2rem;
+    margin: 1rem 0 0;
+}
